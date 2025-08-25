@@ -21,59 +21,7 @@ const Products = () => {
   }, [dispatch]);
  
   console.log("Products:", products);
-  // const products = [
-  //   {
-  //     productId: 1,
-  //     productName: "Wireless Headphones",
-  //     price: 1999,
-  //     discountPrice: 1499,
-  //     discount: 25.0,
-  //     image: "https://placehold.co/200x200?text=Headphones",
-  //     quantity: 0,
-  //     description: "High-quality wireless headphones with noise cancellation."
-  //   },
-  //   {
-  //     productId: 2,
-  //     productName: "Smart Watch",
-  //     price: 2999,
-  //     discountPrice: 2299,
-  //     discount: 10.0,
-  //     image: "https://placehold.co/200x200?text=Watch",
-  //     quantity: 10,
-  //     description: "A stylish smart watch with fitness tracking features."
-  //   },
-  //   {
-  //     productId: 3,
-  //     productName: "Bluetooth Speaker",
-  //     price: 1499,
-  //     discountPrice: 999,
-  //     discount: 33.0,
-  //     image: "https://placehold.co/200x200?text=Speaker",
-  //     quantity: 20,
-  //     description: "Portable Bluetooth speaker with deep bass and long battery life."
-  //   },
-  //   {
-  //     productId: 4,
-  //     productName: "Fitness Tracker",
-  //     price: 1299,
-  //     discountPrice: 899,
-  //     discount: 20.0,
-  //     image: "https://placehold.co/200x200?text=Tracker",
-  //     quantity: 25,
-  //     description: "Track your daily activity and sleep with this fitness tracker."
-  //   },
-  //   {
-  //     productId: 5,
-  //     productName: "Wireless Mouse",
-  //     price: 799,
-  //     discountPrice: 499,
-  //     discount: 15.0,
-  //     image: "https://placehold.co/200x200?text=Mouse",
-  //     quantity: 30,
-  //     description: "Ergonomic wireless mouse with adjustable DPI."
-  //   }
-  // ];
- 
+  
   const [cartCount, setCartCount] = useState(0); // Just showing cart count
  
   return (

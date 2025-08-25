@@ -19,8 +19,8 @@ const ProductModal = ({ open, onClose, product }) => {
   };
 
   const handleImageError = (e) => {
-    e.target.src = `https://placehold.co/400x400/EEE/31343C?font=roboto&text=${encodeURIComponent(productName)}`;
-    e.target.className = "w-40 h-40 object-contain mx-auto rounded mb-4 bg-gray-100";
+    // e.target.src = `https://placehold.co/400x400/EEE/31343C?font=roboto&text=${encodeURIComponent(productName)}`;
+    // e.target.className = "w-40 h-40 object-contain mx-auto rounded mb-4 bg-gray-100";
   };
 
   return (
@@ -37,7 +37,7 @@ const ProductModal = ({ open, onClose, product }) => {
           <FiX className="h-5 w-5 text-gray-500 hover:text-gray-700" />
         </button>
         <img
-          src={'https://placehold.co/600x400.png'}
+           src={productImage}
           alt={productName}
           className="w-70 h-70 object-cover mx-auto rounded mb-4"
           onError={handleImageError}

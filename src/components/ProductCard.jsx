@@ -28,8 +28,8 @@ const ProductCard = ({
 
     // Handle image loading error
     const handleImageError = (e) => {
-        e.target.src = `https://placehold.co/400x400/EEE/31343C?font=roboto&text=${encodeURIComponent(productName)}`;
-        e.target.className = "w-40 h-40 object-contain mx-auto rounded mb-4 bg-gray-100";
+        // e.target.src = `https://placehold.co/400x400/EEE/31343C?font=roboto&text=${encodeURIComponent(productName)}`;
+        // e.target.className = "w-40 h-40 object-contain mx-auto rounded mb-4 bg-gray-100";
     };  
 
     const isAvilable = productStock && Number(productStock) > 0;
